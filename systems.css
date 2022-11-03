@@ -1,0 +1,93 @@
+body {
+    width: 85%;
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+    background-color: rgb(175, 238, 231);
+}
+
+img#pic1 {
+    width: 250px;
+    height: 40px;
+    float: left; 
+    padding: 0px 0px 0px 0px;
+}
+
+img#pic2 {
+    max-width: 35%;
+    height: 35%;
+    float: left;
+    padding: 1px;
+    box-shadow:  5px 5px 5px rgb(243, 243, 119);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+img#pic3 {
+    max-width: 21%;
+    height: 15%;
+    float: left;
+    padding: 1px;
+    box-shadow:  5px 5px 5px rgb(243, 243, 119);
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+
+p#breakoffp {
+    clear: left;
+}
+
+div#grouppic {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+    
+li {
+    float: right;
+}
+    
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+    
+li a:hover {
+    background-color: rgb(136, 131, 131);
+}
+
+h2 {
+    text-align: center;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+}
+
+img#social-icon {
+width: 50px;
+height: 50px;
+margin: 0 10px;
+}
