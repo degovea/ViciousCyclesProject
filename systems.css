@@ -1,7 +1,7 @@
 body {
-    width: 85%;
+    width: 100%;
     margin: 0 auto;
-    font-family: Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(175, 238, 231);
 }
 
@@ -18,7 +18,8 @@ img#pic2 {
     float: left;
     padding: 1px;
     box-shadow:  5px 5px 5px rgb(243, 243, 119);
-    margin-right: 20px;
+    margin-right: 35px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 
@@ -28,9 +29,13 @@ img#pic3 {
     float: left;
     padding: 1px;
     box-shadow:  5px 5px 5px rgb(243, 243, 119);
-    margin-right: 50px;
+    margin-right: 35px;
     margin-left: 20px;
     margin-bottom: 25px;
+}
+
+p#paddinghp {
+    margin-right: 30px;
 }
 
 p#breakoffp {
@@ -40,6 +45,7 @@ p#breakoffp {
 div#grouppic {
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 ul {
@@ -47,6 +53,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    background-color:  rgba(165, 127, 127, 0.916);
 }
     
 li {
@@ -62,10 +69,10 @@ li a {
 }
     
 li a:hover {
-    background-color: rgb(136, 131, 131);
+    background-color: lightgray;
 }
 
-h2 {
+h1 {
     text-align: center;
 }
 
