@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Neccessary heading information to make it flexible for any browser-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Vicious Cycles</title> 
+<!--link to the css stylesheet-->
+    <link rel="stylesheet" href="css/systems.css"> 
+</head>
+<!--Within the body, where all the information of the website that is visible is needed to be placed-->
+<body>
+    <ul>
+<!--Company logo and navigation bar-->
+<img id="pic1" src="images/vicious-cycles-logo(new).png" alt="Vicious Cycles logo">
+    <li><a href="form.html">Contact Us</a></li>
+    <li><a href="ourservices.html">Our Services</a></li>
+    <li><a href="shop.html">Shop</a></li>
+    <li><a href="ourstory.html">Our Story</a></li>
+    <li><a href="index.html">Home</a></li>
+</ul>
+<!--HTML tags that makes it clear that this is a form-->
+<header>
+    <form action="" id="questions" method="post" name="questions">
+    <h1>Contact Form</h1>
+</header>
+<!--All questions/boxes dealing with the form-->
+<div>
+<!--Text form part-->    
+    <label for="firstname">First Name</label>
+    <input id="firstname" name="firstname" type="text">
+</div>
+<div>
+    <label for="lastname">Last Name</label>
+    <input id="lastname" name="lastname" type="text">
+</div>
+<div>
+<!--Email form part-->
+    <label for="email">Email</label> 
+    <input id="email" name="email" type="email">
+</div>
+<div>
+<!--Phone form part-->
+    <label for="tel">Phone Number</label>
+    <input for="phone" name="phone" type="tel">
+</div>
+
+<!--Checkbox form part-->
+<fieldset>
+<legend>What service(s) would you be interested in needing some help with?</legend>
+<input type="checkbox" name="service" value="custombuild" id="custombuild"><label for="custombuild">Custom Build</label>
+<input type="checkbox" name="service" value="consultation" id="consultation"><label for="consultation">Consultation Service</label>
+<input type="checkbox" name="service" value="questions" id="questions"><label for="questions">General Questions</label>
+</fieldset>
+<br>
+
+<!--Textbox form part-->
+<label for="inquire">Any inquires/comments you would like to leave us to give more insight on your situation for the up-and-coming appointment?</label>
+<textarea id="inquire" name="inquire"></textarea><br><br>
+
+<!--Choice form part-->
+<fieldset>
+<legend>Preferred method of contact?</legend>
+<input type="radio" name="contact" value="emailcontact" id="emailcontact"><label for="emailcontact">Email</label>
+<input type="radio" name="contact" value="phonecontact" id="phonecontact"><label for="phonecontact">Phone Number</label>
+</fieldset>
+<br>
+<!--Submit form buttom-->
+<input type="submit" value="Submit Form"><br><br>
+
+</form>
+<!--Footer information-->
+<footer>
+<h3> Helping people find the right gear and mindset, for the right ride.</h3>
+<hr>
+<p> Vicious Cycles &copy;</p>
+<p> 123 Main St Raleigh, NC 27511</p>
+<p> Phone: (919) 123-4567</p>
+<!--Clickable link SM icons-->
+    <a href="https://twitter.com/i/flow/login" alt="clickable link to our twitter" target="_blank">
+<img id="social-icon" src="images/2021 Twitter logo - black.png">
+<a href="https://www.facebook.com/login/" alt="clickable link to our facebook" target="_blank">
+<img id="social-icon" src="images/f_logo_RGB-Black_512.png">
+</a>
+</a>
+</footer>
+</body>  
+</html>
