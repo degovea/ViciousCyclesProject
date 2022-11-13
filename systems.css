@@ -23,8 +23,8 @@ img#pic1 {
 }
 
 img#pic2 {
-    max-width: 35%;
-    height: 35%;
+    width: 400px;
+    max-height: 400px;
     float: left;
     padding: 1px;
     box-shadow:  5px 5px 5px rgb(243, 243, 119);
@@ -34,8 +34,8 @@ img#pic2 {
 }
 
 img#pic3 {
-    max-width: 21%;
-    height: 15%;
+    width: 350px;
+    max-height: 370px;
     float: left;
     padding: 1px;
     box-shadow:  5px 5px 5px rgb(243, 243, 119);
@@ -66,6 +66,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width: 100%;
 }
     
 li {
