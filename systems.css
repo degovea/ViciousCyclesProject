@@ -7,6 +7,7 @@ body {
     
     margin: 0 auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 650;
     background-color: rgb(175, 238, 231);
     width: 100%;
     min-height: 100%;
@@ -17,9 +18,9 @@ body {
 /*styling for all the pictures I used*/
 img#pic1 {
     width: 250px;
-    height: 40px;
+    height: 50px;
     float: left; 
-    padding: 0px 0px 0px 0px;
+    margin-top: 20px;
 }
 
 img#pic2 {
@@ -43,6 +44,17 @@ img#pic3 {
     margin-left: 20px;
     margin-bottom: 25px;
 }
+
+img#pic4 {
+    width: 600px;
+    max-height: 600px;
+    float: left;
+    padding: 1px;
+    box-shadow:  5px 5px 5px rgb(243, 243, 119);
+    margin-right: 35px;
+    margin-left: 20px;
+    
+}
 /*used the flex to align the paragraph with the picture that was too the left of it*/
 p#paddinghp {
     margin-right: 30px;
@@ -60,30 +72,57 @@ div#grouppic {
     margin-right: 30px;
 }
 /*styling dealing with the navigation bar menu, dealing with color in both the ul and li a tag, as well as placement and other small details like the hover*/
-ul {
+nav {
     background-color: whitesmoke;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    width: 100%;
 }
-    
-li {
+
+nav ul {
     float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
 }
-    
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
+
+nav ul li {
+    display: inline-block;
+    background: #1b1b1b;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
     text-decoration: none;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 6px 12px;
 }
-    
-li a:hover {
-    background-color: lightgray;
+
+nav ul li a:hover {
+    color: rgb(243, 243, 119);
 }
+
+nav ul ul {    
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav ul li:hover > ul {
+    opacity: 1;
+    visibility:visible;
+}
+
+nav ul ul li {
+    position: relative;
+    margin-left: -40px;
+    max-width: 300px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+
 /*wanted the h1 to be in the center, make it look more presentable*/
 h1 {
     text-align: center;
