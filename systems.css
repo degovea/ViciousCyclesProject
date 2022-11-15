@@ -20,7 +20,7 @@ img#pic1 {
     width: 250px;
     height: 50px;
     float: left; 
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 img#pic2 {
@@ -53,7 +53,32 @@ img#pic4 {
     box-shadow:  5px 5px 5px rgb(243, 243, 119);
     margin-right: 35px;
     margin-left: 20px;
-    
+}
+
+img#shop {
+    width: 600px;
+    max-height: 600px;
+    box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
+}
+
+div#shop_ {
+    text-align: center;
+}
+
+button {
+    border-radius: 4px;
+    padding: 15px;
+    width: 155px;
+    font-weight: 600;
+    font-style: bold;
+    font-size: 1em;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
 }
 /*used the flex to align the paragraph with the picture that was too the left of it*/
 p#paddinghp {
@@ -73,7 +98,7 @@ div#grouppic {
 }
 /*styling dealing with the navigation bar menu, dealing with color in both the ul and li a tag, as well as placement and other small details like the hover*/
 nav {
-    background-color: whitesmoke;
+    background-color: rgb(32, 32, 32);
 }
 
 nav ul {
@@ -85,12 +110,12 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    background: #1b1b1b;
+    background: rgb(32, 32, 32);
     margin: 0 5px;
 }
 
 nav ul li a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     line-height: 70px;
     font-size: 18px;
@@ -119,12 +144,15 @@ nav ul ul li {
     max-width: 300px;
     float: none;
     display: list-item;
-    border-bottom: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(0,0,0,0.3); 
 }
 
 
 /*wanted the h1 to be in the center, make it look more presentable*/
 h1 {
+    text-align: center;
+}
+h2 {
     text-align: center;
 }
 /*styling dealing with the form, moving it and making it as best I could*/
@@ -145,10 +173,16 @@ textarea {
 input[type="submit"] {
     width: 10%;
     margin-left: 45%;
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: whitesmoke;
+    border-style: none;
 }
 /*styling dealing with the footer, making it stick on the bottom*/
 footer {
-    background-color: whitesmoke;
+    background-color: rgb(32, 32, 32);
+    color: whitesmoke;
     width: 100%;
     text-align: center;  
     margin-top: auto;
