@@ -28,6 +28,7 @@ img#pic1 {
     height: 50px;
     float: left; 
     margin-top: 25px;
+    margin-left: 25px;
 }
 img#pic2 {
     width: 550px;
