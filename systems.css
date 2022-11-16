@@ -21,10 +21,11 @@ body {
 .wrappernav {
     width: 100%;
 }
-.wrapperstory {
+
+.wrappercenter {
+    text-align: center;
     margin: 0 auto;
     width: 90%;
-    text-align: center;
 }
 
 /*styling for all the pictures I used*/
@@ -36,13 +37,11 @@ img#pic1 {
     margin-left: 25px;
 }
 img#pic2 {
-    width: 550px;
-    max-height: 550px;
-    float: left;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: auto;
     box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
-    margin-right: 35px;
-    margin-left: 20px;
-    margin-bottom: 20px;
 }
 img#pic3 {
     width: 450px;
@@ -64,10 +63,7 @@ img#shop {
     max-height: 600px;
     box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
 }
-/*shop styling, from buttons to layout for that sub page*/
-div#shop_ {
-    text-align: center;
-}
+/*shop styling, all dealing with the button*/
 button {
     border-radius: 4px;
     padding: 15px;
@@ -82,17 +78,7 @@ button a {
     text-decoration: none;
     color: rgb(32, 32, 32);
 }
-/*used the flex to align the paragraph with the picture that was too the left of it*/
-p#paddinghp {
-    margin-right: 30px;
-    display: flex;
-    align-items: center;
-}
-/*id tag for a paragraph I wanted to break off so it can have enough space*/
-p#breakoffp {
-    clear: left;
-}
-/* same dilemma with the paragraph that was next too a image, moved it more in the center with space*/
+/* used the flex to align the paragraph with the picture that was too the left of it, making it more in the center with space*/
 div#grouppic {
     display: flex;
     align-items: center;
@@ -141,11 +127,8 @@ nav ul ul li {
     display: list-item;
     border: 1px solid rgba(0,0,0,0.3); 
 }
-/*wanted the h1 & h2 to be in the center, make it look more presentable*/
+/*styling dealing with headings*/
 h1 {
-    text-align: center;
-}
-h2 {
     text-align: center;
 }
 /*styling dealing with the form, moving it and making it as best I could*/
