@@ -48,15 +48,23 @@ img#pic3 {
     max-height: 500px;
     float: left;
     box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
-    margin-right: 35px;
-    margin-left: 20px;
-    margin-bottom: 25px;
+    margin: 30px;
 }
 img#pic4 {
     width: 800px;
     max-height: 800px;
     padding: 1px;
     box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
+}
+img#pic5 {
+    float: left;
+    width: 600px;
+    max-height: 600px;
+    padding: 1px;
+    box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
+    margin-right: 35px;
+    margin-left: 20px;
+    margin-bottom: 25px;
 }
 img#shop {
     width: 600px;
@@ -79,9 +87,13 @@ button a {
     color: rgb(32, 32, 32);
 }
 /* used the flex to align the paragraph with the picture that was too the left of it, making it more in the center with space*/
-div#grouppic {
+div#flexalign {
     display: flex;
     align-items: center;
+    margin-right: 30px;
+}
+div#align {
+    align-items: table-column;
     margin-right: 30px;
 }
 /*styling dealing with the navigation bar menu, dealing with color in both the ul and li a tag, as well as placement and other small details like the hover*/
