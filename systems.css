@@ -14,6 +14,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+.wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+.wrappernav {
+    width: 100%;
+}
+
 /*styling for all the pictures I used*/
 img#pic1 {
     width: 250px;
