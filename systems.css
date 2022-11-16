@@ -2,7 +2,7 @@
 html {
     height: 100%;
 }
-/*styling for the whole body tag associated with the website, includes the fonts, width for flexible design, as well as some stuff for the footer*/
+/*styling for the whole body tag and more associated with the website, includes the fonts, width for flexible design, as well as some stuff for the footer*/
 body {
     margin: 0 auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,6 +20,11 @@ body {
 }
 .wrappernav {
     width: 100%;
+}
+.wrapperstory {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
 }
 
 /*styling for all the pictures I used*/
@@ -49,13 +54,10 @@ img#pic3 {
     margin-bottom: 25px;
 }
 img#pic4 {
-    width: 600px;
-    max-height: 600px;
-    float: left;
+    width: 800px;
+    max-height: 800px;
     padding: 1px;
     box-shadow:  5px 5px 5px 5px rgb(243, 243, 119);
-    margin-right: 35px;
-    margin-left: 20px;
 }
 img#shop {
     width: 600px;
