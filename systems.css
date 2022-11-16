@@ -86,7 +86,7 @@ button a {
     text-decoration: none;
     color: rgb(32, 32, 32);
 }
-/* used the flex to align the paragraph with the picture that was too the left of it, making it more in the center with space*/
+/* used the to align the texts with the picture too areas I want it too be*/
 div#flexalign {
     display: flex;
     align-items: center;
